@@ -9,7 +9,7 @@ print(filme1[:-2]) # nesse exemplo, eu defini que irá ler só até antes do pen
 print(filme1[:-1]) # nesse exemplo, eu defini que irá ler só até antes do ultimo indice.
 
 print(filme1[3:]) # nesse exemplo, eu defini que irá ler a partir da 3° posição até o ultimo indice.
-print(filme1[1:-1])# nesse exemplo, eu defini que não irá ler nem a 1° nem a ultima posição.
+print(filme1[0:-1])# nesse exemplo, eu defini que não irá ler nem a 1° nem a ultima posição.
 
 # na String o Python ler da seguinte maneira:
 
