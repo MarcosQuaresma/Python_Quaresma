@@ -30,7 +30,7 @@ while True:
 
     achouFilme = [filme for filme in filmeLista if procurarNome.upper() in filme.upper()]
     if achouFilme:
-        print(f"Filme(s) encontrado(s) com o nome: {procurarNome}")
+        print(f"Filme(s) encontrado(s) com o nome: {procurarNome}:")
         for achouFilme in achouFilme:
             print(achouFilme)
     else:
